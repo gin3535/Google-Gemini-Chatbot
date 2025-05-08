@@ -56,7 +56,6 @@ const generateAPIResponse = async (incomingMessageDiv) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ 
         contents: [{ 
-          role: "user", 
           parts: [{ text: userMessage }] 
         }] 
       }),
